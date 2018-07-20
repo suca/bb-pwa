@@ -17,6 +17,11 @@ module.exports = {
                     'sass-loader',
                     'postcss-loader',
                 ]
+            },
+            {
+                test: /\.(png|jpg|gif|svg)$/,
+                exclude: /node_modules/,
+                loader: 'url-loader'
             }
         ]
     },

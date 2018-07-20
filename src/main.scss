@@ -1,9 +1,41 @@
-$background-color: #fff;
-$brand-color: red;
-
-
-body {
-	background: $background-color;
-	color: $brand-color;
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
 }
 
+body {
+	margin: 0;
+	background: #fff;
+}
+
+$icon: './assets/betbright.svg';
+
+#app {
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #d5e1e4;
+	padding-bottom: 50px;
+	top: 50px;
+	position: relative;
+}
+.pwa-bb-title,
+.pwa-bb-description {
+	text-align: center;
+}
+.pwa-bb-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #00a0e3;
+}
+.pwa-bb-logo {
+	background-image: url($icon);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	margin: 15px;
+}

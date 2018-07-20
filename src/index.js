@@ -2,10 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //require('./main.scss');
 import './main.scss';
-const title = 'My Minimal React Webpack Babel Setup';
+import coupon from  './assets/coupon-background.jpg';
+const title = 'Offline Mode';
+const description = 'Oh my God! We do not have connection! Can somebody do something!? :P';
 
 ReactDOM.render(
-    <div>{title}</div>,
+    <div>
+        <h2 className='pwa-bb-title'> { title } </h2>
+        <img src={coupon} alt=""/>
+        <h4 className='pwa-bb-description'> { description } </h4>
+    </div>,
     document.getElementById('app')
 );
 
