@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 //require('./main.scss');
 import './main.scss';
 import coupon from  './assets/coupon-background.jpg';
-const title = 'Offline Mode';
-const description = 'Oh my God! We do not have connection! Can somebody do something!? :P';
+const title = 'My way... My mode...';
+const description = 'Oh I have no connection but how can I still see the BetBright site!? cool! :P';
 
 ReactDOM.render(
     <div>
